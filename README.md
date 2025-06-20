@@ -24,7 +24,7 @@ This project provides a multi-node Apache Kafka cluster setup using Docker Compo
    ```
    Or, if you are using Podman:
    ```sh
-   podman-compose up -d
+   podman compose up -d
    ```
 
 4. Access the Kafka UI at [http://localhost:8080](http://localhost:8080).
@@ -40,7 +40,7 @@ docker compose down
 ```
 Or with Podman:
 ```sh
-podman-compose down
+podman compose down
 ```
 
 ## Notes
