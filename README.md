@@ -9,8 +9,8 @@ This project provides a multi-node Apache Kafka cluster setup using Docker Compo
 
 ## Services
 
-- **controller-1, controller-2, controller-3**: Kafka controllers for KRaft mode
-- **broker-1, broker-2, broker-3**: Kafka brokers
+- **controller**: Kafka controller for KRaft mode
+- **broker**: Kafka broker
 - **kafka-ui**: Web UI for managing and monitoring Kafka
 
 ## How to Run
@@ -45,6 +45,6 @@ podman compose down
 
 ## Notes
 
-- The brokers are accessible on ports **29092**, **39092**, and **49092** on localhost.
+- The broker is accessible on port **29092** on localhost.
 - Make sure Docker or Podman is running before starting the cluster.
 - The Kafka UI is available at [http://localhost:8080](http://localhost:8080) after the containers are up.
