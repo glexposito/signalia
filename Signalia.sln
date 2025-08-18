@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signalia.Messaging.Abstractions", "src\Signalia.Messaging.Abstractions\Signalia.Messaging.Abstractions.csproj", "{D61DEA95-5256-4B0F-9E77-DFA5813946F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signalia.Messaging.Kafka", "src\Signalia.Messaging.Kafka\Signalia.Messaging.Kafka.csproj", "{DB6BC87C-95AF-4572-99CD-A96D3D98BF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signalia.Messaging.Serialization.Json", "src\Signalia.Messaging.Serialization.Json\Signalia.Messaging.Serialization.Json.csproj", "{47AE26C6-9EC1-437F-877F-5E039156D85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signalia.Messaging.UnitTests", "tests\Signalia.Messaging.UnitTests\Signalia.Messaging.UnitTests.csproj", "{AD9ACE13-89B4-4BB3-9BEF-368082C29F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Signalia.Messaging.IntegrationTests", "tests\Signalia.Messaging.IntegrationTests\Signalia.Messaging.IntegrationTests.csproj", "{DD703FE6-EC6C-44F8-BCE3-4C06EA383460}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{72B0B326-88BC-40DB-A27E-24D5D98C7FAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1DC4DEF0-7A74-4BAA-A3C8-9BF1B5B3FEF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61DEA95-5256-4B0F-9E77-DFA5813946F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61DEA95-5256-4B0F-9E77-DFA5813946F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61DEA95-5256-4B0F-9E77-DFA5813946F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61DEA95-5256-4B0F-9E77-DFA5813946F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB6BC87C-95AF-4572-99CD-A96D3D98BF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB6BC87C-95AF-4572-99CD-A96D3D98BF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB6BC87C-95AF-4572-99CD-A96D3D98BF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB6BC87C-95AF-4572-99CD-A96D3D98BF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AE26C6-9EC1-437F-877F-5E039156D85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AE26C6-9EC1-437F-877F-5E039156D85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AE26C6-9EC1-437F-877F-5E039156D85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AE26C6-9EC1-437F-877F-5E039156D85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9ACE13-89B4-4BB3-9BEF-368082C29F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9ACE13-89B4-4BB3-9BEF-368082C29F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9ACE13-89B4-4BB3-9BEF-368082C29F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9ACE13-89B4-4BB3-9BEF-368082C29F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD703FE6-EC6C-44F8-BCE3-4C06EA383460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD703FE6-EC6C-44F8-BCE3-4C06EA383460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD703FE6-EC6C-44F8-BCE3-4C06EA383460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD703FE6-EC6C-44F8-BCE3-4C06EA383460}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D61DEA95-5256-4B0F-9E77-DFA5813946F0} = {72B0B326-88BC-40DB-A27E-24D5D98C7FAB}
+		{DB6BC87C-95AF-4572-99CD-A96D3D98BF93} = {72B0B326-88BC-40DB-A27E-24D5D98C7FAB}
+		{47AE26C6-9EC1-437F-877F-5E039156D85E} = {72B0B326-88BC-40DB-A27E-24D5D98C7FAB}
+		{DD703FE6-EC6C-44F8-BCE3-4C06EA383460} = {1DC4DEF0-7A74-4BAA-A3C8-9BF1B5B3FEF0}
+		{AD9ACE13-89B4-4BB3-9BEF-368082C29F2C} = {1DC4DEF0-7A74-4BAA-A3C8-9BF1B5B3FEF0}
+	EndGlobalSection
+EndGlobal
